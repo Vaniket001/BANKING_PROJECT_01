@@ -40,4 +40,10 @@ public class BankDetailsController {
 		return null;
 	}
 
+      @UpdateMapping("{id}")
+	public ResponseEntity<BankInfo> updateBankInfo(@RequestBody BankInfo bankInfo,@PathVariable("id") String bankId) throws Exception{
+		// Update service will be called...
+		return null;
+	}
+
 }
