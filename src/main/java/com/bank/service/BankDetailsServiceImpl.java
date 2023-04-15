@@ -40,4 +40,9 @@ public class BankDetailsServiceImpl implements BankDetailsService{
 		// TODO Auto-generated method stub
 	}
 
+     @Override
+     public BankInfo updateBankInfo(BankInfo bankInfo,String bankId){
+       return null;
+   }
+
 }
