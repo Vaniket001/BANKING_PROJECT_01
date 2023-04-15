@@ -24,49 +24,10 @@ public class BankDetailsServiceImpl implements BankDetailsService{
 	@Override
 	public BankInfo getBankInfo(String bankId) throws Exception {
 		
-		
 		 ListOfBankInfo= bankInfoList.stream().filter(b->b.getBankId().equals(bankId)).collect(Collectors.toList());
-		 System.out.println(ListOfBankInfo.get(0));
-		 return ListOfBankInfo.get(0);            
-//		if(ListOfBankInfo!=null) {
-//		}else {
-//			
-//			throw new ResourceNotFoundException("Resourse is not found !!");
-//		}
-		
-		
-		
-		
-//		BankInfo bankInfo=new BankInfo();
-//		
-//		for(BankInfo bi:bankInfoList) {
-//			if(bi.getBankId()==bankId) {
-//				bankInfo=bi;
-//				//return bi;
-//			}
-//		}
-//		if(bankInfo!=null) {
-//			return bankInfo;
-//		}
-			
-		
-		
-		
-		
-		
-//		BankInfo bankInfo=new BankInfo();
-//		bankInfo.setBankId(bankId);
-//		if(bankInfo.getBankId()==1) {
-//			bankInfo.setBankAccountType("saving");
-//			bankInfo.setBankName("SBI");
-//			bankInfo.setPersonName("A Singh");
-//		}else if(bankInfo.getBankId()==2) {
-//			bankInfo.setBankAccountType("saving");
-//			bankInfo.setBankName("SBI");
-//			bankInfo.setPersonName("A Singh");
-//		}
-		
-		//return null;
+		 BankInfo bankInfo=bankInfoList.get(0);
+		 System.out.println(bankInfo);
+		 return bankInfo;            
 	}
 
 	@Override

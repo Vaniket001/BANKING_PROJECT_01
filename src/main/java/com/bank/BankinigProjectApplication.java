@@ -9,6 +9,7 @@ public class BankinigProjectApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(BankinigProjectApplication.class, args);
 		System.out.println("BankinigProjectApplication started !!");
+		
 	}
 
 }
