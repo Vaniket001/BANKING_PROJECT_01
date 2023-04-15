@@ -11,6 +11,7 @@ public class BankinigProjectApplication {
 		SpringApplication.run(BankinigProjectApplication.class, args);
 		System.out.println("BankinigProjectApplication started !!");
 	}
+  
 	public static void findOccurence(Map<String,Integer> map){
 		System.out.println("String Character Counting started !!");
 		System.out.println("String Character Counting Ended !!");

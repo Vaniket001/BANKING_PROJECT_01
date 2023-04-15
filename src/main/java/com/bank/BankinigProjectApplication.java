@@ -6,6 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class BankinigProjectApplication {
 	Map<String,Integer> map=new HashSet<>();
+	List<Integer> list=new ArrayList<>();
 
 	public static void main(String[] args) {
 		SpringApplication.run(BankinigProjectApplication.class, args);
@@ -15,6 +16,9 @@ public class BankinigProjectApplication {
 		System.out.println("String Character Counting started !!");
 		
 		System.out.println("String Character Counting Ended !!");
+	}
+	public static int getElement(List<Integer> list){
+		System.out.println("Search element in list !!");
 	}
 
 }
