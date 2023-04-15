@@ -17,7 +17,12 @@ import com.bank.service.BankDetailsService;
 @RestController
 @RequestMapping("/info")
 public class BankDetailsController {
-	
+	int arr2[]=new int[15];
+	arr2[0]=57;
+	arr2[0]=58;
+	arr2[0]=51;
+	arr2[0]=55;
+	arr2[0]=53;
 	
 	@Autowired
 	private BankDetailsService bankDetailsService;
