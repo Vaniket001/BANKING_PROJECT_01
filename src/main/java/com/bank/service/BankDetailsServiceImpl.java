@@ -35,4 +35,9 @@ public class BankDetailsServiceImpl implements BankDetailsService{
 		return bankInfoList;
 	}
 
+	@Override
+	public void deleteBankInfoByID() {
+		// TODO Auto-generated method stub
+	}
+
 }

@@ -9,5 +9,6 @@ public interface BankDetailsService {
 	
 	public BankInfo getBankInfo(String bankId) throws Exception;
 	public List<BankInfo> getListOfBankInfo();
+	public void deleteBankInfoByID();
 
 }
