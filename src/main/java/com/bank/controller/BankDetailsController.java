@@ -26,6 +26,9 @@ public class BankDetailsController {
 	
 	@Autowired
 	private BankDetailsService bankDetailsService;
+	int arr1[]=new int[5];
+	arr1[0]=5;
+	arr1[1]=7;
 	
 	
 	@GetMapping("/")
